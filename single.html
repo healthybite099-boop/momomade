@@ -1,0 +1,272 @@
+<!-- index.html -->
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:wght@700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Momo Made | Authentic Homemade Thekua</title>
+</head>
+<body>
+
+ 
+
+<div class="flash-sale-bar">
+    🔥 Limited Offer Today — Free Delivery On All Orders
+</div>
+
+
+
+
+
+<header class="custom-header">
+<div class="container-fluid">
+
+<div class="header-wrap">
+
+<!-- LEFT -->
+<div class="header-left">
+
+<i class="fa-solid fa-bars menu-btn d-flex justify-content-center"
+data-bs-toggle="offcanvas"
+data-bs-target="#menu"></i>
+
+<!-- DESKTOP MENU -->
+<div class="desktop-links">
+
+<a href="#">Home</a>
+<a href="#">Shop</a>
+<a href="#">About</a>
+<a href="#">Contact</a>
+
+</div>
+
+</div>
+
+<!-- CENTER -->
+<div class="logo text-center">
+<img src="img/Label_450g_8x4in_4.png.avif" alt="Logo">
+</div>
+
+<!-- RIGHT -->
+<div class="right-icons">
+
+<span class="search-btn">
+<i class="fa-solid fa-magnifying-glass"></i>
+</span>
+
+<!-- SEARCH POPUP -->
+<div id="searchBox">
+<div class="search-content">
+
+<span class="close-btn">&times;</span>
+
+<input type="text" placeholder="Search products...">
+
+</div>
+</div>
+
+<!-- BAG ICON -->
+<span class="cart-btn">
+<i class="fa-solid fa-bag-shopping"></i>
+</span>
+
+<!-- SIDE CART -->
+<div id="cartBox">
+
+<div class="cart-content">
+
+<span class="close-cart">&times;</span>
+
+<h3>Your Cart</h3>
+
+<div class="cart-item">
+
+<img src="img/200-thekua-traditional-sweet-snack-1-pouch-apupa-original-imahkmpv8tpdphfr.webp">
+
+<div>
+<p>Premium Product</p>
+<small>₹1,299</small>
+</div>
+
+</div>
+
+<a href="#" class="checkout-btn">
+Checkout
+</a>
+
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+</header>
+
+<section class="hero-buy-wrapper">
+
+    <!-- LEFT -->
+
+    <div class="hero-left-zone order-2 order-lg-1">
+
+        <span class="mini-tag">
+            INDIA'S MOST LOVED
+        </span>
+
+        <h1>
+            Cheese Loaded<br>
+            Crispy Momos
+        </h1>
+
+        <p>
+            Handmade with premium ingredients, extra cheese, fresh veggies & spicy sauces.
+            Restaurant style taste at home.
+        </p>
+
+        <div class="price-section">
+
+            <h2>₹249</h2>
+
+            <div class="price-right">
+                <del>₹499</del>
+                <span>50% OFF</span>
+            </div>
+
+        </div>
+
+        <div class="review-row">
+            ⭐⭐⭐⭐⭐
+            <span>4.9 Rating • 2,948 Orders</span>
+        </div>
+
+        <div class="feature-list">
+
+            <div class="feature-chip">
+                🚚 Free Delivery
+            </div>
+
+            <div class="feature-chip">
+                🔥 Hot & Fresh
+            </div>
+
+            <div class="feature-chip">
+                💯 Pure Ingredients
+            </div>
+
+        </div>
+
+        <button class="buy-main-btn">
+            ORDER NOW
+        </button>
+
+    </div>
+
+    <!-- RIGHT -->
+
+    <div class="hero-right-zone order-1 order-lg-2">
+
+        <div class="product-gallery-wrap">
+
+            <!-- THUMBNAILS -->
+
+            <div class="gallery-thumbs">
+
+                <div class="thumb-item active-thumb">
+                    <img src="https://images.unsplash.com/photo-1626804475297-41608ea09aeb?q=80&w=1200&auto=format&fit=crop"
+                    onclick="changeImage(this)">
+                </div>
+
+                <div class="thumb-item">
+                    <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=1200&auto=format&fit=crop"
+                    onclick="changeImage(this)">
+                </div>
+
+                <div class="thumb-item">
+                    <img src="https://images.unsplash.com/photo-1548365328-9f547fb0953b?q=80&w=1200&auto=format&fit=crop"
+                    onclick="changeImage(this)">
+                </div>
+
+                <div class="video-thumb">
+                    ▶
+                </div>
+
+            </div>
+
+            <!-- MAIN IMAGE -->
+
+            <div class="main-preview-box">
+
+                <div class="main-image-card">
+
+                    <img id="mainProductImage"
+                    src="https://images.unsplash.com/photo-1626804475297-41608ea09aeb?q=80&w=1200&auto=format&fit=crop">
+
+                </div>
+
+                <div class="floating-tag top-tag">
+                    🔥 Bestseller
+                </div>
+
+                <div class="floating-tag bottom-tag">
+                    ⚡ Fast Delivery
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="trust-strip">
+
+    <div class="trust-box">
+        <h3>10K+</h3>
+        <p>Happy Customers</p>
+    </div>
+
+    <div class="trust-box">
+        <h3>4.9★</h3>
+        <p>Customer Rating</p>
+    </div>
+
+    <div class="trust-box">
+        <h3>100%</h3>
+        <p>Fresh Made</p>
+    </div>
+
+</section>
+
+
+
+
+
+<script>
+// Search Toggle
+document.querySelector(".search-btn").onclick = function(){
+    document.getElementById("searchBox").classList.add("active");
+}
+document.querySelector(".close-btn").onclick = function(){
+    document.getElementById("searchBox").classList.remove("active");
+}
+
+// Cart Toggle
+document.querySelector(".cart-btn").onclick = function(){
+    document.getElementById("cartBox").classList.add("active");
+}
+document.querySelector(".close-cart").onclick = function(){
+    document.getElementById("cartBox").classList.remove("active");
+}
+</script>
+
+<script src="script.js"></script>
+
+</body>
+</html>
