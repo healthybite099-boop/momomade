@@ -41,7 +41,8 @@ a {
     background:#fdf6f2;
     padding:18px 24px;
     border-bottom:1px solid rgba(0,0,0,0.03);
-  
+    position:sticky;
+    top:0px;
     z-index:1030;
 }
 
@@ -347,7 +348,7 @@ a {
     position: fixed;
     inset: 0;
     background: rgba(0,0,0,0.45);
-    z-index: 9900000099!important;
+    z-index: 9999;
     opacity: 0;
     height: 100vh;
     overflow: hidden;
